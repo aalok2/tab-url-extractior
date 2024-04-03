@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Capture Extension",
+  "version": "1.0",
+  "description": "Chrome extension to capture opened and closed tab URLs.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "action": {}
+}
